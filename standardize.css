@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:#ffffff;
+    color: #000000;
+    box-sizing: border-box;
+    font-size: 18px;
+	line-height: 27px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit
+}
+
+div, span, p, h1, h2, h3, h4, h5, h6, img, a, ul, ol, li, code, blockquote {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	display: block;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #3388ff;
+    transition: 0.5s;
+}
+
+ol, ul, p, code, blockquote {
+    margin-bottom: 1em;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    padding-bottom: 0.25em;
+}
+
+blockquote {
+    padding: 0px 20px;
+    display: block;
+    font-style: italic;
+    border-left: 2px solid #124;
+}
+
+code {
+    font-family: monospace;
+    font-size: 1em;
+    padding: 3px 6px;
+}
+
+code.block-code {
+    font-family: monospace;
+    font-size: 1em;
+    display: block;
+    padding: 15px 20px;
+    
+}
